@@ -7,7 +7,7 @@ chrome.runtime.onInstalled.addListener(() => {
 });
 
 chrome.contextMenus.onClicked.addListener((info, tab) => {
-    console.log('Context Menu Item Clicked')
+    //console.log('Context Menu Item Clicked')
     if (info.menuItemId === "selectTableData") {
         chrome.tabs.sendMessage(tab.id, {
             action: "selectTable",

@@ -2,12 +2,12 @@ let lastRightClickedElement = null;
 
 document.addEventListener('contextmenu', event => {
     lastRightClickedElement = event.target;
-    console.log('Right-clicked element:', lastRightClickedElement);
+    //console.log('Right-clicked element:', lastRightClickedElement);
 }, true);
 
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     if (request.action === "selectTable") {
-        console.log('Message received to select table', request);
+        //console.log('Message received to select table', request);
         selectAllTableData();
     }
 });
@@ -15,7 +15,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
 function selectAllTableData() {
     let table = findClosestTable();
     if (table) {
-        console.log('Table found:', table);
+        // console.log('Table found:', table);
         let text = getTableText(table);
         if (text) {
             navigator.clipboard.writeText(text).then(() => {
@@ -45,14 +45,12 @@ function logTableContents(table) {
     console.log('Table Contents:\n' + text);
 }
 
-// Existing content.js code...
-
 function findClosestTable() {
     if (lastRightClickedElement) {
         // Attempt to find the closest parent table of the last right-clicked element
         return lastRightClickedElement.closest('table');
     } else {
-        console.log('No element was right-clicked before opening the context menu.');
+        //console.log('No element was right-clicked before opening the context menu.');
         return null;
     }
 }
