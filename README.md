@@ -59,3 +59,9 @@ For developers or users interested in understanding the extension's internal wor
 ## Feedback and Contributions
 
 Feedback and contributions to the Table Data Selector are always welcome. Feel free to open an issue or submit a pull request on the repository.
+
+## Follow GBTI for more
+
+Thanks for reading! If you like our content, please consider following us!
+
+[Twitter/X](https://twitter.com/gbtilabs) | [GitHub](https://github.com/gbti-labs) | [YouTube](https://www.youtube.com/channel/UCh4FjB6r4oWQW-QFiwqv-UA) | [Dev.to](https://dev.to/gbti) | [Daily.dev](https://dly.to/zfCriM6JfRF) | [Hashnode](https://gbti.hashnode.dev/) | [Discord](https://gbti.io)
