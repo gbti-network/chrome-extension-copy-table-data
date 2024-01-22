@@ -4,6 +4,8 @@
 
 Table Data Selector is a Chrome extension designed to enhance your browsing experience by enabling you to quickly and easily copy the contents of HTML tables. With a simple right-click, you can select and copy the entire data of a table to your clipboard, making data extraction more efficient and user-friendly.
 
+https://github.com/gbti-labs/chrome-extension-copy-table-data/assets/125175036/d0a4363f-73b3-422c-afc7-439b8cfcc965
+
 ## Features
 
 - **Context Menu Integration**: Adds a "Select Table Data B" option to your right-click context menu.
